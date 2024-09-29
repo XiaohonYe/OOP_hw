@@ -1,4 +1,4 @@
-# Sudoku Solver in C++ - Project Overview
+# Sudoku Solver in C++
 
 ## Project Structure
 
