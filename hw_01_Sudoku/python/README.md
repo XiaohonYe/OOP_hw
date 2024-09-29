@@ -4,6 +4,22 @@ This project implements a Sudoku solver using Python. It provides a `Grid` class
 
 ## Features
 
+### File Structure
+
+```
+|-- src/
+|   |-- Grid.py      # Source code the Grid class
+|   |-- Sudoku.py  # Source file for the Sudoku class implementation
+|   |-- init.py    # mark src-directory on disk as Python package directories
+|
+|-- test/
+|   |-- test_Sudoku.py # Test cases
+|   |-- init.py    # mark src-directory on disk as Python package directories
+|
+|-- init.py    # mark src-directory on disk as Python package directories
+
+```
+
 ### Grid Class
 
 - **`__init__(grid_string, GRID_SIZE, BOX_SIZE)`**: Initializes the grid from a string of 81 digits.
